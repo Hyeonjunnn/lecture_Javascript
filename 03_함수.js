@@ -119,9 +119,6 @@ function sum (...numbers) {
     document.getElementById('p5').innerHTML = `합계: ${result}`;
 }
 
-// function sum (num) {
-//     console.log(num);
-// }
 
 // 함수로 전달되는 값들 중에 가장 작은 값을 리턴하시오.
 function min (...numbers) {
@@ -130,4 +127,6 @@ function min (...numbers) {
     
     console.log(sortNums);
     console.log(minNum);
+
+    return Math.min(...numbers);
 }
